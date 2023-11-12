@@ -31,6 +31,142 @@ const Menu = [
         price: "50 berries",
         description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
     },
+    {
+        id: 5,
+        image: "../public/images/d-going-merry-drink.png",
+        name: "Going merry drink",
+        category: "Drinks",
+        price: "30 berries",
+        description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
+    },
+    {
+        id: 6,
+        image: "../public/images/d-luffy-drink.png",
+        name: "Luffy drink",
+        category: "Drinks",
+        price: "60 berries",
+        description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
+    },
+    {
+        id: 7,
+        image: "../public/images/d-nami-drink.png",
+        name: "Nami drink",
+        category: "Drinks",
+        price: "30 berries",
+        description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
+    },
+    {
+        id: 8,
+        image: "../public/images/d-sanji-drink.png",
+        name: "Sanji drink",
+        category: "Drinks",
+        price: "30 berries",
+        description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
+    },
+    {
+        id: 9,
+        image: "../public/images/d-scurvy-drink.png",
+        name: "Scurvy drink",
+        category: "Drinks",
+        price: "30 berries",
+        description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
+    },
+    {
+        id: 10,
+        image: "../public/images/d-usopp-drink.png",
+        name: "Usopp drink",
+        category: "Drinks",
+        price: "30 berries",
+        description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
+    },
+    {
+        id: 11,
+        image: "../public/images/d-zoro-drink.png",
+        name: "Zoro drink",
+        category: "Drinks",
+        price: "30 berries",
+        description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
+    },
+    {
+        id: 12,
+        image: "../public/images/de-kakigoori.png",
+        name: "Kakigoori",
+        category: "Desert",
+        price: "65 berries",
+        description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
+    },
+    {
+        id: 13,
+        image: "../public/images/de-mikan-jelly.png",
+        name: "Mikan jelly",
+        category: "Desert",
+        price: "45 berries",
+        description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
+    },
+    {
+        id: 14,
+        image: "../public/images/l-east-blue-salad.png",
+        name: "Salad",
+        category: "Lunch",
+        price: "20 berries",
+        description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
+    },
+    {
+        id: 15,
+        image: "../public/images/l-onaji-yume-wo-daita-tatakau-kokku.png",
+        name: "Onaji yume wo daita tatakau kokku",
+        category: "Lunch",
+        price: "80 berries",
+        description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
+    },
+    {
+        id: 16,
+        image: "../public/images/l-one-piece-curry-1.png",
+        name: "Curry",
+        category: "Lunch",
+        price: "90 berries",
+        description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
+    },
+    {
+        id: 17,
+        image: "../public/images/l-one-piece-curry-2.png",
+        name: "Curry + Juice",
+        category: "Lunch",
+        price: "110 berries",
+        description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
+    },
+    {
+        id: 18,
+        image: "../public/images/l-shinshi-no-tashinami-mikan-sauce.png",
+        name: "Mikan sauce",
+        category: "Lunch",
+        price: "50 berries",
+        description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
+    },
+    {
+        id: 19,
+        image: "../public/images/l-tomodachi-wo-taskeru-tame.png",
+        name: "Taskeru tame",
+        category: "Lunch",
+        price: "50 berries",
+        description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
+    },
+    {
+        id: 20,
+        image: "../public/images/l-yasashii-usotsuki-usopp-pasta.png",
+        name: "Usopp pasta",
+        category: "Lunch",
+        price: "70 berries",
+        description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
+    },
+    {
+        id: 21,
+        image: "../public/images/l-zoro-dish.png",
+        name: "Zoro dish",
+        category: "Lunch",
+        price: "120 berries",
+        description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
+    },
 ]
 
 export default Menu;
