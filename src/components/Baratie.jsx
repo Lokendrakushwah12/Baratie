@@ -2,11 +2,28 @@ import React, { useState } from 'react';
 import './style.css';
 import Menu from './menuApi.js';
 import Item from './item.jsx';
+import Tab from './tab.jsx';
+
+const uniqueList = [
+    "All",
+    ...new Set(
+        Menu.map((curElem) => {
+            return curElem.category;
+        })
+    )
+];
 
 const Baratie = () => {
     const [menuData, setMenuData] = useState(Menu);
-    // console.log(menuData);
+    const [menuList, setMenuList] = useState(uniqueList);
+
+
+
     const filterItem = (category) => {
+        if (category === "All") {
+            setMenuData(Menu);
+            return;
+        }
         const updatedList = Menu.filter((curElem) => {
             return curElem.category === category;
         });
@@ -26,11 +43,7 @@ const Baratie = () => {
                     </div>
                 </div>
                 <div className="tab">
-                    <h2 className='options' onClick={() => setMenuData(Menu)}>All</h2>
-                    <h2 className='options' onClick={() => filterItem("Breakfast")}>Breakfast</h2>
-                    <h2 className='options' onClick={() => filterItem("Drinks")}>Drinks</h2>
-                    <h2 className='options' onClick={() => filterItem("Dishes")}>Dishes</h2>
-                    <h2 className='options' onClick={() => filterItem("Desert")}>Desert</h2>
+                    <Tab filterItem={filterItem} menuList={menuList} />
                 </div>
                 <div className='Item-cards'>
                     <Item menuData={menuData} />
