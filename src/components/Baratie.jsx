@@ -6,6 +6,12 @@ import Item from './item.jsx';
 const Baratie = () => {
     const [menuData, setMenuData] = useState(Menu);
     // console.log(menuData);
+    const filterItem = (category) => {
+        const updatedList = Menu.filter((curElem) => {
+            return curElem.category === category;
+        });
+        setMenuData(updatedList);
+    }
 
     return (
         <>
@@ -20,10 +26,11 @@ const Baratie = () => {
                     </div>
                 </div>
                 <div className="tab">
-                    <h2 className='options'>Breakfast</h2>
-                    <h2 className='options'>Drinks</h2>
-                    <h2 className='options'>Dishes</h2>
-                    <h2 className='options'>Desert</h2>
+                    <h2 className='options' onClick={() => setMenuData(Menu)}>All</h2>
+                    <h2 className='options' onClick={() => filterItem("Breakfast")}>Breakfast</h2>
+                    <h2 className='options' onClick={() => filterItem("Drinks")}>Drinks</h2>
+                    <h2 className='options' onClick={() => filterItem("Dishes")}>Dishes</h2>
+                    <h2 className='options' onClick={() => filterItem("Desert")}>Desert</h2>
                 </div>
                 <div className='Item-cards'>
                     <Item menuData={menuData} />

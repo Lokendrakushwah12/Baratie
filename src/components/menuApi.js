@@ -107,7 +107,7 @@ const Menu = [
         id: 14,
         image: "../public/images/l-east-blue-salad.png",
         name: "Salad",
-        category: "Lunch",
+        category: "Dishes",
         price: "20 berries",
         description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
     },
@@ -115,7 +115,7 @@ const Menu = [
         id: 15,
         image: "../public/images/l-onaji-yume-wo-daita-tatakau-kokku.png",
         name: "Onaji yume wo daita tatakau kokku",
-        category: "Lunch",
+        category: "Dishes",
         price: "80 berries",
         description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
     },
@@ -123,7 +123,7 @@ const Menu = [
         id: 16,
         image: "../public/images/l-one-piece-curry-1.png",
         name: "Curry",
-        category: "Lunch",
+        category: "Dishes",
         price: "90 berries",
         description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
     },
@@ -131,7 +131,7 @@ const Menu = [
         id: 17,
         image: "../public/images/l-one-piece-curry-2.png",
         name: "Curry + Juice",
-        category: "Lunch",
+        category: "Dishes",
         price: "110 berries",
         description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
     },
@@ -139,7 +139,7 @@ const Menu = [
         id: 18,
         image: "../public/images/l-shinshi-no-tashinami-mikan-sauce.png",
         name: "Mikan sauce",
-        category: "Lunch",
+        category: "Dishes",
         price: "50 berries",
         description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
     },
@@ -147,7 +147,7 @@ const Menu = [
         id: 19,
         image: "../public/images/l-tomodachi-wo-taskeru-tame.png",
         name: "Taskeru tame",
-        category: "Lunch",
+        category: "Dishes",
         price: "50 berries",
         description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
     },
@@ -155,7 +155,7 @@ const Menu = [
         id: 20,
         image: "../public/images/l-yasashii-usotsuki-usopp-pasta.png",
         name: "Usopp pasta",
-        category: "Lunch",
+        category: "Dishes",
         price: "70 berries",
         description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
     },
@@ -163,7 +163,7 @@ const Menu = [
         id: 21,
         image: "../public/images/l-zoro-dish.png",
         name: "Zoro dish",
-        category: "Lunch",
+        category: "Dishes",
         price: "120 berries",
         description: "dai sensou buns lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?"
     },
