@@ -6,7 +6,7 @@ const item = ({ menuData }) => {
     return (
         <>
             {menuData.map((curElem) => {
-                const { id, name, image, description, price } = curElem;
+                const { id, image, name, description, price } = curElem;
 
                 return (
                     <>

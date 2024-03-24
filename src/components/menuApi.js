@@ -1,7 +1,29 @@
+import fruitMousseImage from '../images/b-bara-bara-fruit-mousse.png';
+import beautifulLadyCremeImage from '../images/b-beautiful-lady-creme-brulee.png';
+import muraDishImage from '../images/b-cocoyasi-mura-dish.png';
+import daiSensouBunsImage from '../images/b-dai-sensou-buns-beef.png';
+import goingMerryDrinkImage from '../images/d-going-merry-drink.png';
+import luffyDrinkImage from '../images/d-luffy-drink.png';
+import namiDrinkImage from '../images/d-nami-drink.png';
+import sanjiDrinkImage from '../images/d-sanji-drink.png';
+import scurvyDrinkImage from '../images/d-scurvy-drink.png';
+import usoppDrinkImage from '../images/d-usopp-drink.png';
+import zoroDrinkImage from '../images/d-zoro-drink.png';
+import kakigooriImage from '../images/de-kakigoori.png';
+import mikanJellyImage from '../images/de-mikan-jelly.png';
+import eastBlueSaladImage from '../images/l-east-blue-salad.png';
+import onajiYumeWoDaitaTatakauKokkuImage from '../images/l-onaji-yume-wo-daita-tatakau-kokku.png';
+import onePieceCurry1Image from '../images/l-one-piece-curry-1.png';
+import onePieceCurry2Image from '../images/l-one-piece-curry-2.png';
+import shinshiNoTashinamiMikanSauceImage from '../images/l-shinshi-no-tashinami-mikan-sauce.png';
+import tomodachiWoTaskeruTameImage from '../images/l-tomodachi-wo-taskeru-tame.png';
+import yasashiiUsotsukiUsoppPastaImage from '../images/l-yasashii-usotsuki-usopp-pasta.png';
+import zoroDishImage from '../images/l-zoro-dish.png';
+
 const Menu = [
     {
         id: 1,
-        image: "../public/images/b-bara-bara-fruit-mousse.png",
+        image: fruitMousseImage,
         name: "Fruit mousse",
         category: "Breakfast",
         price: "93 berries",
@@ -9,7 +31,7 @@ const Menu = [
     },
     {
         id: 2,
-        image: "../public/images/b-beautiful-lady-creme-brulee.png",
+        image: beautifulLadyCremeImage,
         name: "Beautiful lady creme",
         category: "Breakfast",
         price: "120 berries",
@@ -17,7 +39,7 @@ const Menu = [
     },
     {
         id: 3,
-        image: "../public/images/b-cocoyasi-mura-dish.png",
+        image: muraDishImage,
         name: "Mura dish",
         category: "Breakfast",
         price: "150 berries",
@@ -25,7 +47,7 @@ const Menu = [
     },
     {
         id: 4,
-        image: "../public/images/b-dai-sensou-buns-beef.png",
+        image: daiSensouBunsImage,
         name: "Dai sensou buns",
         category: "Breakfast",
         price: "50 berries",
@@ -33,7 +55,7 @@ const Menu = [
     },
     {
         id: 5,
-        image: "../public/images/d-going-merry-drink.png",
+        image: goingMerryDrinkImage,
         name: "Going merry drink",
         category: "Drinks",
         price: "30 berries",
@@ -41,7 +63,7 @@ const Menu = [
     },
     {
         id: 6,
-        image: "../public/images/d-luffy-drink.png",
+        image: luffyDrinkImage,
         name: "Luffy drink",
         category: "Drinks",
         price: "60 berries",
@@ -49,7 +71,7 @@ const Menu = [
     },
     {
         id: 7,
-        image: "../public/images/d-nami-drink.png",
+        image: namiDrinkImage,
         name: "Nami drink",
         category: "Drinks",
         price: "30 berries",
@@ -57,7 +79,7 @@ const Menu = [
     },
     {
         id: 8,
-        image: "../public/images/d-sanji-drink.png",
+        image: sanjiDrinkImage,
         name: "Sanji drink",
         category: "Drinks",
         price: "30 berries",
@@ -65,7 +87,7 @@ const Menu = [
     },
     {
         id: 9,
-        image: "../public/images/d-scurvy-drink.png",
+        image: scurvyDrinkImage,
         name: "Scurvy drink",
         category: "Drinks",
         price: "30 berries",
@@ -73,7 +95,7 @@ const Menu = [
     },
     {
         id: 10,
-        image: "../public/images/d-usopp-drink.png",
+        image: usoppDrinkImage,
         name: "Usopp drink",
         category: "Drinks",
         price: "30 berries",
@@ -81,7 +103,7 @@ const Menu = [
     },
     {
         id: 11,
-        image: "../public/images/d-zoro-drink.png",
+        image: zoroDrinkImage,
         name: "Zoro drink",
         category: "Drinks",
         price: "30 berries",
@@ -89,7 +111,7 @@ const Menu = [
     },
     {
         id: 12,
-        image: "../public/images/de-kakigoori.png",
+        image: kakigooriImage,
         name: "Kakigoori",
         category: "Desert",
         price: "65 berries",
@@ -97,7 +119,7 @@ const Menu = [
     },
     {
         id: 13,
-        image: "../public/images/de-mikan-jelly.png",
+        image: mikanJellyImage,
         name: "Mikan jelly",
         category: "Desert",
         price: "45 berries",
@@ -105,7 +127,7 @@ const Menu = [
     },
     {
         id: 14,
-        image: "../public/images/l-east-blue-salad.png",
+        image: eastBlueSaladImage,
         name: "Salad",
         category: "Dishes",
         price: "20 berries",
@@ -113,7 +135,7 @@ const Menu = [
     },
     {
         id: 15,
-        image: "../public/images/l-onaji-yume-wo-daita-tatakau-kokku.png",
+        image: onajiYumeWoDaitaTatakauKokkuImage,
         name: "Onaji yume wo daita tatakau kokku",
         category: "Dishes",
         price: "80 berries",
@@ -121,7 +143,7 @@ const Menu = [
     },
     {
         id: 16,
-        image: "../public/images/l-one-piece-curry-1.png",
+        image: onePieceCurry1Image,
         name: "Curry",
         category: "Dishes",
         price: "90 berries",
@@ -129,7 +151,7 @@ const Menu = [
     },
     {
         id: 17,
-        image: "../public/images/l-one-piece-curry-2.png",
+        image: onePieceCurry2Image,
         name: "Curry + Juice",
         category: "Dishes",
         price: "110 berries",
@@ -137,7 +159,7 @@ const Menu = [
     },
     {
         id: 18,
-        image: "../public/images/l-shinshi-no-tashinami-mikan-sauce.png",
+        image: shinshiNoTashinamiMikanSauceImage,
         name: "Mikan sauce",
         category: "Dishes",
         price: "50 berries",
@@ -145,7 +167,7 @@ const Menu = [
     },
     {
         id: 19,
-        image: "../public/images/l-tomodachi-wo-taskeru-tame.png",
+        image: tomodachiWoTaskeruTameImage,
         name: "Taskeru tame",
         category: "Dishes",
         price: "50 berries",
@@ -153,7 +175,7 @@ const Menu = [
     },
     {
         id: 20,
-        image: "../public/images/l-yasashii-usotsuki-usopp-pasta.png",
+        image: yasashiiUsotsukiUsoppPastaImage,
         name: "Usopp pasta",
         category: "Dishes",
         price: "70 berries",
@@ -161,7 +183,7 @@ const Menu = [
     },
     {
         id: 21,
-        image: "../public/images/l-zoro-dish.png",
+        image: zoroDishImage,
         name: "Zoro dish",
         category: "Dishes",
         price: "120 berries",
